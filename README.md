@@ -4,7 +4,7 @@ The goal of this project is to write a ray tracing renderer. You will write a co
 
 This is the first half of a two-part project. For this first part you will cast eye rays into the scene for each pixel, test these rays for intersection with sphere objects, and then use the the Lambertian shading equation (ambient + diffuse + specular) to find the color for each pixel. In the second half of the project you will expand your Ray Tracer to detect intersections between rays and disks. You will also expand your shading function to cast shadows, reflected rays, support area lights, and implement distribution raytracing. Keep this in mind when deciding on implementation details.
 
-## Due: Saturday September 18th, 11:59pm
+## Due: Friday October 29th, 12pm noon
 
 ## Rubric
 
