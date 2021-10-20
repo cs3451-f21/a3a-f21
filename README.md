@@ -34,8 +34,6 @@ However you implement the ray tracer, your results should appear exactly like th
 
 The provided source code in `testRayTracer.ts` is structured similarly to the `app.ts` A1 sample code, creating a canvas in its constructor, setting up a `RayTracer` object defined in `rayTracer.ts`, and having routines to create various scenes using the functions you will write. Each number key 1-4 is assigned to a single scene function and pressing that key should reset the scene and create an image of the new one. 
 
-The canvas is a fixed size (the number of pixels in the canvas). The constructor also allows you to set the number of virtual pixels that will be ray traced; these should be smaller than the number of pixels in the canvas (ideally simple fractions of them). It will draw larger "pixels" in the canvas so it is filled.  Using smaller numbers of virtual pixels will make debugging faster. (The sample project is set up with a 500x500 pixel canvas, but only renders 100x100 virtual pixels, resulting in 5x5 canvas pixels for each virtual ray-traced pixel.)
-
 The code in `rayTracer.ts` contains some code to get your started, along with empty functions used for scene setup. These are described below. You will need to implement them.  Feel free to define any classes, objects, data structures, and global variables that you want to accomplish this project.
 
 You should modify the source code in any way you see fit, and comment your code (include placing your name in the header). The source code is written in Typescript. You are NOT allowed to use any graphics commands from libraries such as Three.js or native web libraries, all code must be your own. We are not using rasterization for this project, so you should not need any of these libraries.
@@ -86,13 +84,22 @@ Note on color specification: Each of the red, green, and blue components for the
 
 # Results
 
-Below are the images that your program should generate for a given scene, when you press the keys 1-4. Key 0 will draw an empty scene with just the background color. No scene is generated when the program starts, you will just see a light yellow canvas. There will be additional scene descriptions provided for Part B of this project.
+Below are the images that your program should generate for the sample scenes, when you press the keys 1-4. Key 0 will draw an empty scene with just the background color. No scene is generated when the program starts, you will just see a light yellow canvas. There will be additional scene descriptions provided for Part B of this project.
 
 ![results](scene0.png)
 ![results](scene1.png)
 ![results](scene2.png)
 ![results](scene3.png)
 ![results](scene4.png)
+
+The canvas is a fixed size (the number of pixels in the canvas), specified in the RayTracer object constructor. The constructor also allows you to set the number of virtual pixels that will be ray traced; these should be smaller than the number of pixels in the canvas (ideally simple fractions of them). It will draw larger "pixels" in the canvas so it is filled.  Using smaller numbers of virtual pixels will make debugging faster. 
+
+The sample project is set up with a 500x500 pixel canvas, but only renders 100x100 virtual pixels, resulting in 5x5 canvas pixels for each virtual ray-traced pixel.  The sample scenes will look like this with these settings.
+
+![results](scene1-100.png)
+![results](scene2-100.png)
+![results](scene3-100.png)
+![results](scene4-100.png)
 
 # Authorship Rules
 
