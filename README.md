@@ -10,12 +10,12 @@ This is the first half of a two-part project. For this first part you will cast 
 
 Graded out of 10.
 
-1. (4 points) 2 point each for implementing `ortho()` and `perspective()` correctly, 1 point each for the projection component, 1 point each for viewport mapping to the full screen correctly.
-2. (1 point) Points created by `vertex()` are correctly transformed by the transformation and projection matrices.
-3. (1 point) implement `vertex()` by matrix multiplication correctly.
-4. (1 point) calling the `Drawing` `line()` method with the correct transformed values.
-5. (1 point) implementing `beginShape()` and `endShape()` correctly.
-4. (2 point) routine to draw your initials on the screen (1 point for drawing the initials, 1 point for satisfying the perspective requirements below).
+1. (2 points) Enough of `eyeRay(i,j)` that scene 0 (empty scene) works. Should use the values defined in `set_fov()` and `set_eye()` (TA may look at code to see if it's plausibly correct)
+2. (1 point) `reset_scene()` empties the scene,  including resetting background and ambient light. `ambient_light` and `set_background()` set values to be used by ray color calculation.
+3. (1 point) create scene data structure. `new_light()`, `new_sphere()`.
+4. (2 point) `traceRay()` finds the closest point on one of the spheres and calls some method to compute the color for it.
+5. (1 point) color for ray includes correct ambient contribution
+6. (3 point) color for ray includes the correct diffuse (1 point) and specular (1 point) contribution per light (1 point for all lights).
 
 ## Project Description
 
