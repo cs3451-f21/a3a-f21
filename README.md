@@ -34,7 +34,7 @@ However you implement the ray tracer, your results should appear exactly like th
 
 The provided source code in `testRayTracer.ts` is structured similarly to the `app.ts` A1 sample code, creating a canvas in its constructor, setting up a `RayTracer` object defined in `rayTracer.ts`, and having routines to create various scenes using the functions you will write. Each number key 1-4 is assigned to a single scene function and pressing that key should reset the scene and create an image of the new one. 
 
-The code in `rayTracer.ts` contains some code to get your started, along with empty functions used for scene setup. These are described below. You will need to implement them.  Feel free to define any classes, objects, data structures, and global variables that you want to accomplish this project.
+The code in `rayTracer.ts` contains some code to get your started, along with empty functions used for scene setup. These are described below. You will need to implement them.  Feel free to define any classes, objects, data structures, and global variables that you want to accomplish this project.  (We also recommend breaking complex equations down into simple equations assigned to extra variables; aside from making the code clearer, having these values in separate variables makes debugging easier because you can look at them in the debugger.)
 
 You should modify the source code in any way you see fit, and comment your code (include placing your name in the header). The source code is written in Typescript. You are NOT allowed to use any graphics commands from libraries such as Three.js or native web libraries, all code must be your own. We are not using rasterization for this project, so you should not need any of these libraries.
 
