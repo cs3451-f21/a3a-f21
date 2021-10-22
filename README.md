@@ -4,7 +4,7 @@ The goal of this project is to write a ray tracing renderer. You will write a co
 
 This is the first half of a two-part project. For this first part you will cast eye rays into the scene for each pixel, test these rays for intersection with sphere objects, and then use the the Lambertian shading equation (ambient + diffuse + specular) to find the color for each pixel. In the second half of the project you will expand your Ray Tracer to detect intersections between rays and disks. You will also expand your shading function to cast shadows, reflected rays, support area lights, and implement distribution raytracing. Keep this in mind when deciding on implementation details.
 
-## Due: Friday October 29th, 12pm noon
+## Due: Monday November 1st, 11:59pm
 
 ## Rubric
 
@@ -58,11 +58,11 @@ Sets the background color. If a ray misses all the objects in the scene, the pix
 
 #### `set_fov (angle)`
 
-Specifies the field of view (in degrees) for perspective projection.  You will need to convert this to the focal length d.  You will then use this together with the eye position and the u, v, and w vectors of the eye's rotation matrix to create the eye rays.
+Specifies the field of view (in degrees) for perspective projection. Default value 90. You will need to convert this to the focal length d.  You will then use this together with the eye position and the u, v, and w vectors of the eye's rotation matrix to create the eye rays.
 
 #### `set_eye (cx, cy, cz, lx, ly, lz,  ux, uy, uz)`
 
-Specifies the eye position (cx,cy,cz) in 3D coordinates along with a lookat point (lx,ly,lz) that define the position and direction the camera is looking. An up vector (ux, uy, uz) allows you to set the full orientation of the camera.
+Specifies the eye position (cx,cy,cz) in 3D coordinates along with a lookat point (lx,ly,lz) that define the position and direction the camera is looking. An up vector (ux, uy, uz) allows you to set the full orientation of the camera.  Camera is at the origin, looking down the -z axis by default.
 
 #### `new_light (r, g, b, x, y, z)`
 
