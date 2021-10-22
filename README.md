@@ -1,4 +1,4 @@
-# Assignment 1a:  Ray Tracing Spheres
+# Assignment 3a:  Ray Tracing Spheres
 
 The goal of this project is to write a ray tracing renderer. You will write a collection of Javascript functions that, when called, will create a 3D scene and produce 2D images of the scene. One of the functions will initialize the scene, others will create objects, lights and a virtual camera, and one additional function will determine the color of a ray cast into the scene, that will be used to render the scene into a 2D image. You will be provided with various scenes that will call your functions to test your ray tracing code.
 
@@ -103,7 +103,7 @@ The sample project is set up with a 500x500 pixel canvas, but only renders 100x1
 
 # Authorship Rules
 
-The code that you turn in should be entirely your own. You are allowed to talk to other members of the class and to the instructor and the TA’s about general implementation of the assignment. It is also fine to seek the help of others for general Typescript and Web programming questions. You may not, however, use code that anyone other than yourself has written. The only exceptions are that you should use your code from Project 1A and the source code that we provide for this project. Code that is explicitly not allowed includes code taken from the Web, github, from books, from other students, or from any source other than yourself. You should not show your code to other students. Feel free to seek the help of the instructor and the TA's for suggestions about debugging your code.
+The code that you turn in should be entirely your own. You are allowed to talk to other members of the class and to the instructor and the TA’s about general implementation of the assignment. It is also fine to seek the help of others for general Typescript and Web programming questions. You may not, however, use code that anyone other than yourself has written. The only exceptions are that you should use the source code that we provide for this project. Code that is explicitly not allowed includes code taken from the Web, github, from books, from other students, or from any source other than yourself. You should not show your code to other students. Feel free to seek the help of the instructor and the TA's for suggestions about debugging your code.
 
 # Submission
 
